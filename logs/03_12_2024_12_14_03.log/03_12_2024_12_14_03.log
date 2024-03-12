@@ -1,0 +1,28 @@
+[ 2024-03-12 12:14:05,293 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2024-03-12 12:14:05,304 ] 96 werkzeug - INFO -  * Debugger PIN: 829-874-933
+[ 2024-03-12 12:15:14,475 ] 96 werkzeug - INFO - 127.0.0.1 - - [12/Mar/2024 12:15:14] "GET / HTTP/1.1" 200 -
+[ 2024-03-12 12:15:14,773 ] 96 werkzeug - INFO - 127.0.0.1 - - [12/Mar/2024 12:15:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-03-12 12:15:37,990 ] 92 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-03-12 12:15:37,990 ] 60 root - INFO - Exporting data from mongodb
+[ 2024-03-12 12:15:48,959 ] 69 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2024-03-12 12:15:49,023 ] 98 root - INFO - Got the data from mongodb
+[ 2024-03-12 12:15:49,023 ] 101 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-03-12 12:15:49,023 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-03-12 12:15:49,154 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-03-12 12:15:49,154 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-03-12 12:15:49,154 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2024-03-12 12:15:49,154 ] 156 root - INFO - Extracting model config file path
+[ 2024-03-12 12:15:49,154 ] 163 root - INFO - Extracting model config file path
+[ 2024-03-12 12:16:44,578 ] 197 root - INFO - Best found model on both training and testing dataset
+[ 2024-03-12 12:16:44,578 ] 202 root - INFO - Saving model at path: artifacts\model.pkl
+[ 2024-03-12 12:16:44,578 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-03-12 12:16:44,578 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-03-12 12:16:44,578 ] 96 werkzeug - INFO - 127.0.0.1 - - [12/Mar/2024 12:16:44] "GET /train HTTP/1.1" 200 -
+[ 2024-03-12 12:19:51,760 ] 96 werkzeug - INFO - 127.0.0.1 - - [12/Mar/2024 12:19:51] "GET /predict HTTP/1.1" 200 -
+[ 2024-03-12 12:19:51,864 ] 96 werkzeug - INFO - 127.0.0.1 - - [12/Mar/2024 12:19:51] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2024-03-12 12:19:51,907 ] 96 werkzeug - INFO - 127.0.0.1 - - [12/Mar/2024 12:19:51] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2024-03-12 12:19:55,133 ] 96 werkzeug - INFO - 127.0.0.1 - - [12/Mar/2024 12:19:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2024-03-12 12:19:55,228 ] 96 werkzeug - INFO - 127.0.0.1 - - [12/Mar/2024 12:19:55] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2024-03-12 12:19:55,398 ] 96 werkzeug - INFO - 127.0.0.1 - - [12/Mar/2024 12:19:55] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2024-03-12 12:19:55,783 ] 96 werkzeug - INFO - 127.0.0.1 - - [12/Mar/2024 12:19:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-03-12 12:19:56,037 ] 96 werkzeug - INFO - 127.0.0.1 - - [12/Mar/2024 12:19:56] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
